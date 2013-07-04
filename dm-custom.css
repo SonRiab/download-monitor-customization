@@ -1,0 +1,103 @@
+/*
+Author:      Rene Jablonski
+Author URI:  http://paul-paulchen.de/
+Description: Download Monitor customizations
+Version:     1.0
+License:     GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
+
+ul.dlm-downloads li {
+    list-style: none;
+    margin: 0;
+}
+
+section.download-paul div.download-paul-details span.post-meta-key {
+    font-weight: bold;
+}
+
+section.download-paul a.download-button {
+    border-radius: 0px;
+    box-shadow: none;
+    font-size: 100%;
+    border: 0;
+    border-left: 1px solid;
+    padding: 5px 10px;
+    padding: 0.35714286rem 0.71428571rem;
+    min-height: 40px;
+    min-height: 2.85714286rem;
+    line-height: 1.6rem;
+}
+
+section.download-paul a.download-button small{
+    line-height: 0.9rem;
+}
+
+section.download-paul h3 {
+    margin: 0;
+}
+
+section.download-paul img {
+    display: none;
+}
+
+section.download-paul div.download-paul-details {
+    clear: both;
+    display: none;
+    position: relative;
+    top: 11px;
+    top: 0.78571429rem;
+    min-height: 50px;
+    min-height: 3.57142857rem;
+    width: auto;
+    /*max-width: 100%;*/
+    font-size: 11px;
+    font-size: 0.78571429rem;
+    background-color: #ededed;
+    padding: 10px;
+    padding: 0.71428571rem;
+    z-index: 250;
+}
+
+section.download-paul div.download-paul-details p {
+    margin: 0;
+}
+
+@media screen and (min-width: 960px) {
+    
+    section.download-paul img {
+        max-height: 50px;
+        max-height: 3.57142857rem;
+        max-width: 50px;
+        max-width: 3.57142857rem;
+        margin-right: 10px;
+        margin-right: 0.71428571rem;
+        border-radius: 0;
+        box-shadow: none;
+        display: block;
+    }
+
+    section.download-paul {
+        height: 50px;
+        height: 3.57142857rem;
+        border-bottom: 1px dotted #BDBDBD;
+        padding: 10px 0;
+        padding: 0.71428571rem 0;
+    }
+
+    section.download-paul div.download-paul-content,
+    section.download-paul img {
+        float: left;
+    }
+    
+    section.download-paul div.download-paul-button {
+        float: right;
+    }
+    
+    section.download-paul div.download-paul-content {
+        max-width: 65%;
+        max-height: 50px;
+        max-height: 3.57142857rem;
+    }
+    
+}
