@@ -4,6 +4,7 @@ download-monitor-customization
 Just some customizations for the Wordpress Plugin Download Monitor (http://wordpress.org/extend/plugins/download-monitor/)
 
 Author: Rene Jablonski <rene@p-pchen.de>
+
 License: GPLv3
 
 Tested with: Download Monitor Version 1.0.2
